@@ -1,0 +1,43 @@
+body{
+  background-color:green;
+}
+
+#back{
+  background-color:black;
+  width:300px;
+  height:425px;
+  margin-top:150px;
+  border-radius: 20px;
+  box-shadow:15px 15px #2C3E50;
+
+}
+#result{
+  border-radius:10px;
+  background-color: lightblue;
+  width:250px;
+  height:50px;
+  margin-top:5px;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+h1{
+  font-style: italic;
+  padding-top:15px;
+  color:white
+}
+td{
+  height:50px;
+  width:50px;
+}
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#zero,#equal,#add,#subtract,#divide,#multiply,#clear
+{
+  background-color:lightgreen;
+  font-size: 30px;
+  border-radius: 10px;
+  height:50px;
+  width:60px
+
+}
+#one:hover,#two:hover,#three:hover,#four:hover,#five:hover,#six:hover,#seven:hover,#eight:hover,#nine:hover,#zero:hover,#equal:hover,#add:hover,#subtract:hover,#divide:hover,#multiply:hover,#clear:hover{
+  background-color:lightblue;
+}

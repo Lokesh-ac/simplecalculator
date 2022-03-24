@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Simple Calcultor</title>
+ <link type="text/css" href="styles.css" rel="stylesheet">
+</head>
+  <body>
+    <center>
+    <div id=back>
+           <h1><center>Simple Calculator</center></h1>
+
+      <center>
+         <div id=result>
+
+            <center><label id=res>Click the numbers </label></center>
+
+         </div>
+      <form>
+
+        <table id="tab">
+
+          <tr >
+            <td>
+               <input type="button" id="three" value="3" onclick="obtainInputThree()">
+            </td>
+            <td>
+               <input type="button" id="two" value="2" onclick="obtainInputTwo()">
+            </td>
+            <td>
+               <input type="button" id="one" value="1" onclick="obtainInputOne()">
+            </td>
+            <td>
+               <input type="button" id="zero" value="0" onclick="obtainInputZero()">
+            </td>
+          </tr>
+
+
+                    <tr >
+                      <td>
+                         <input type="button" id="four" value="4" onclick="obtainInputFour()">
+                      </td>
+                      <td>
+                         <input type="button" id="five" value="5" onclick="obtainInputFive()">
+                      </td>
+                      <td>
+                         <input type="button" id="six" value="6" onclick="obtainInputSix()">
+                      </td>
+                      <td>
+                          <input type="button" id="add" value="+" onclick="obtainOperatorAdd()">
+                      </td>
+                    </tr>
+
+
+
+                              <tr >
+                                <td>
+                                    <input type="button" id="nine" value="9" onclick="obtainInputNine()">
+                                </td>
+                                <td>
+                                   <input type="button" id="eight" value="8" onclick="obtainInputEight()">
+                                </td>
+                                <td>
+                                   <input type="button" id="seven" value="7" onclick="obtainInputSeven()">
+                                </td>
+                                <td>
+                                   <input type="button" id="subtract" value="-" onclick="obtainOperatorSub()">
+                                </td>
+                              </tr>
+
+
+
+
+                                        <tr >
+                                          <td>
+                                             <input type="button" id="equal" value="=" onclick="calculateResult()">
+                                          </td>
+                                          <td>
+                                             <input type="button" id="clear" value="C" onclick="clearall()">
+                                          </td>
+                                          <td>
+                                             <input type="button" id="divide" value="/" onclick="obtainOperatorDiv()">
+                                          </td>
+                                          <td>
+                                             <input type="button" id="multiply" value="x" onclick="obtainOperatorMul()">
+                                          </td>
+                                        </tr>
+
+
+        </table>
+
+
+
+      </form>
+     </center>
+
+    </div>
+
+    </center>
+  <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
