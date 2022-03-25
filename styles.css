@@ -4,9 +4,9 @@ body{
 
 #back{
   background-color:black;
-  width:300px;
-  height:425px;
-  margin-top:150px;
+  width:400px;
+  height:600px;
+  margin-top:100px;
   border-radius: 20px;
   box-shadow:15px 15px #2C3E50;
 
@@ -14,11 +14,13 @@ body{
 #result{
   border-radius:10px;
   background-color: lightblue;
-  width:250px;
-  height:50px;
+  width:350px;
+  height: 80px;
   margin-top:5px;
   margin-bottom: 5px;
-  font-size: 30px;
+  font-size: 50px;
+  text-align:right;
+  padding-top:25px;
 }
 h1{
   font-style: italic;
@@ -32,10 +34,10 @@ td{
 #one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#zero,#equal,#add,#subtract,#divide,#multiply,#clear
 {
   background-color:lightgreen;
-  font-size: 30px;
+  font-size: 50px;
   border-radius: 10px;
-  height:50px;
-  width:60px
+  height:90px;
+  width:85px
 
 }
 #one:hover,#two:hover,#three:hover,#four:hover,#five:hover,#six:hover,#seven:hover,#eight:hover,#nine:hover,#zero:hover,#equal:hover,#add:hover,#subtract:hover,#divide:hover,#multiply:hover,#clear:hover{
